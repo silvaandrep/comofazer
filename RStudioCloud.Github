@@ -15,23 +15,18 @@
        1.5 git config --global user.email "<seu_email>"
        1.6 git commit -m "Primeiro commit"
        1.7 git branch -M main
+       1.8 git remote add origin git@github.com:<seu_nome_de_usuário_no_Github>/<nome_do_repositório>.git
+    2. Clicar no menu "Tools" -> "Global Options"
+    3. Clicar no opção "Git/SVN" -> "Create RSA Key..."
+    4. Clicar em "Creat"
+    5. Clicar em "Close"
+    6. Clicar em "View public key
+    7. Pressionar "Ctrl + c"
+    8. Clicar em "Close"
+    9. Clicar em "Ok"
     
     No Github
-    2. Criar um Repositório com o nome do Projeto
-    
-    No RStudio Cloud
-    3. Na aba "Terminal" digitar:
-       3.1 git remote add origin git@github.com:<seu_nome_de_usuário_no_Github>/<nome_do_repositório>.git
-    4. Clicar no menu "Tools" -> "Global Options"
-    5. Clicar no opção "Git/SVN" -> "Create RSA Key..."
-    6. Clicar em "Creat"
-    7. Clicar em "Close"
-    8. Clicar em "View public key
-    9. Pressionar "Ctrl + c"
-    10. Clicar em "Close"
-    11. Clicar em "Ok"
-    
-    No Github
+    10. Criar um Repositório com o nome do Projeto
     11. Clicar ícone no canto superior direito -> "Settings"
     12. Clicar em "SSH and GPG keys"
     13. Clicar em "New SSH key"
