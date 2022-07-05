@@ -1,0 +1,28 @@
+       New Project from Git Repository
+    1. Criar uma conta no github.com silva
+        1. usuário: silvaandrep
+        2. e-mail: silva.andrep@gmail.com
+    2. Logar no Github
+    3. Criar um repositório no Github
+        1. Marcar a opção iniciar com o readme
+    4. Copiar a url do repositório
+    5. Criar uma conta no rstudio.cloud
+    6. Logar no Rstudio Cloud
+    7. Selecionar New Project from Git Repository
+    8. Colar a url do repositório criado no Github
+    9. Selecionar Tools > Global options > Git/SVN > Create RSA Key
+        1. Deixar Passphrase em branco
+    10. Selecionar View public key
+    11. Copiar a chave
+    12. No Github, selecionar Settings > SSH and GPG key >New SSH key
+    13. Nomei a chave e cole a chave
+    14. Clicar em Add SSH key
+    15. No Rstudio Cloud, selecionar a aba Terminal
+    16. Digitar git config --global user.email “seuemail@email.com” 
+        1. Inserir o e-mail de cadastro no Github
+    17. Digitar git config --global user.name “username” 
+        1. Inserir o login de cadastro no Github
+    18. Digitar git config remote.origin.url git@github.com:username/namerepository.git
+
+Neste ponto a integração já está configurada.
+No primeiro “Push” digitar “yes”.
