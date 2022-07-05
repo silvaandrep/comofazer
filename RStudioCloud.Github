@@ -8,7 +8,7 @@
        ENVIAR UM PROJETO DO RSTUDIO CLOUD PARA O GITHUB
     No RStudio Cloud
     1. Na aba "Terminal" digitar:
-       1.1 echo "# teste" >> README.md
+       1.1 echo "# <nome_do_projeto" >> README.md
        1.2 git init
        1.3 git add README.md
        1.4 git config --global user.name "<seu_nome_de_usuário>"
