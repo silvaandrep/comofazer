@@ -1,3 +1,47 @@
+    1 Acessar o site "rstudio.cloud"
+    2 Criar uma conta
+    3 Logar
+    4 Clicar em "New RStudio Project"
+    5 Nomear o Projeto
+    6 Na aba "Terminal" digitar "git init"
+    7 Clicar no menu "Session" -> "Restart R Ctrl+Shit+F10"
+    8 Clicar em "Your Workspace"
+    9 Clicar no <nome_do_projeto>
+    10 Na aba "Terminal" digitar:
+     10.1 git config --global user.name "<seu_nome_de_usuário>"
+     10.2 git config --global user.email "<seu_email>"
+     
+     
+     10.3 git commit -m "Primeiro commit"
+       1.7 git branch -M main
+       1.8 git remote add origin git@github.com:<seu_nome_de_usuário_no_Github>/<nome_do_repositório>.git
+    2. Clicar no menu "Tools" -> "Global Options"
+    3. Clicar no opção "Git/SVN" -> "Create RSA Key..."
+    4. Clicar em "Creat"
+    5. Clicar em "Close"
+    6. Clicar em "View public key
+    7. Pressionar "Ctrl + c"
+    8. Clicar em "Close"
+    9. Clicar em "Ok"
+    
+    No Github
+    10. Criar um Repositório com o nome do Projeto
+    11. Clicar ícone no canto superior direito -> "Settings"
+    12. Clicar em "SSH and GPG keys"
+    13. Clicar em "New SSH key"
+    14. Clicar no campo Key
+    15. Pressionar "Ctrl + v"
+    16. Clicar em "Add SSH key"
+    
+    No RStudio Cloud
+    17. Na aba "Terminal" digitar:
+       17.1 git push -u origin main
+       17.2 yes
+    
+    PARABÉNS! O SEU PROJETO JÁ ESTÁ NO GITHUB
+    
+########################################################################################
+
        New Project
     1. Criar uma conta no rstudio.cloud
     2. Logar no RStudio Cloud
