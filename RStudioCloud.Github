@@ -7,46 +7,45 @@ COMO CRIAR UM PROJETO NO RSTUDIO CLOUD E SUBIR PRO GITHUB
 5 Clique em "Create repository"
 6 Acesse o site "rstudio.cloud"
 7 Clique em "ALREADY A USER? LOG IN"
-8 Clicar em "Log In with GitHub" 
-4 Clicar em "New Project" -> "New RStudio Project"
-5 Nomear o Projeto com o "nome_do_repositório_criado_no_GitHub"
-6 Na aba "Terminal" digitar: "git init"
-7 Clicar no menu "Session" -> "Restart R Ctrl+Shit+F10"
-8 Na aba "Terminal" digitar:
-    8.1 git config --global user.name "seu_nome_de_usuário_pro_git"
-    8.2 git config --global user.email "seu_email_pro_git"
-    8.3 git remote add origin git@github.com:<seu_nome_de_usuário_no_Github>/<nome_do_repositório>.git
-    8.4 git add .
-    8.5 git commit -m "Primeiro commit"
-    8.6 git branch -M main
+8 Clique em "Log In with GitHub" 
+9 Clique em "New Project" -> "New RStudio Project"
+10 Nomei o Projeto com o "nome_do_repositório_criado_no_GitHub"
+11 Na aba "Terminal", digite "git init"
+12 Clique no menu "Session" -> "Restart R Ctrl+Shit+F10"
+13 Na aba "Terminal", digite:
+    13.1 git config --global user.name "<seu_nome_de_usuário_pro_git>" Obs.: Mantenha as aspas duplas. Ex.: git config --global user.name "Fulano de Tal"
+    13.2 git config --global user.email "<seu_email_pro_git>" Obs.: Mantenha as aspas duplas. Ex.: git config --global user.email "fulano@detal.com"
+    13.3 git remote add origin git@github.com:<seu_nome_de_usuário_no_Github>/<nome_do_repositório>.git Ex.: git remote add origin git@github.com:fulanodetal/repositorio.git
+    13.4 git add .
+    13.5 git commit -m "Primeiro commit"
+    13.6 git branch -M main
+14 Clique no menu "Tools" -> "Global Options"
+15 Clique no opção "Git/SVN" -> "Create RSA Key..."
+16 Clique em "Creat"
+17 Clique em "Close"
+18 Clique em "View public key
+19 Pressione "Ctrl + c"
+20 Clique em "Close"
+21 Clique em "Ok"
 
-2. Clicar no menu "Tools" -> "Global Options"
-3. Clicar no opção "Git/SVN" -> "Create RSA Key..."
-    4. Clicar em "Creat"
-    5. Clicar em "Close"
-    6. Clicar em "View public key
-    7. Pressionar "Ctrl + c"
-    8. Clicar em "Close"
-    9. Clicar em "Ok"
+No GitHub
+22 Clique no ícone no canto superior direito -> "Settings"
+23 Clique em "SSH and GPG keys"
+24 Clique em "New SSH key"
+25 Clique no campo Key
+26 Pressione "Ctrl + v"
+27 Clique em "Add SSH key"
     
-    No GitHub
-    11. Clicar no ícone no canto superior direito -> "Settings"
-    12. Clicar em "SSH and GPG keys"
-    13. Clicar em "New SSH key"
-    14. Clicar no campo Key
-    15. Pressionar "Ctrl + v"
-    16. Clicar em "Add SSH key"
+No RStudio Cloud
+28 Na aba "Terminal" digite:
+    28.1 git push -u origin main
+    28.2 yes
     
-    No RStudio Cloud
-    17. Na aba "Terminal" digitar:
-       17.1 git push -u origin main
-       17.2 yes
+PARABÉNS! O SEU PROJETO JÁ ESTÁ NO GITHUB
+
+29 Clique em "Your Workspace"
+30 Clique no Projeto
     
-    PARABÉNS! O SEU PROJETO JÁ ESTÁ NO GITHUB
-    
-    Clique em "Your Workspace"
-    Clique no Projeto
-    
-    E VAI LÁ!!!
+E VAI LÁ!!!
     
 ########################################################################################
