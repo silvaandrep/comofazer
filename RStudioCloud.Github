@@ -1,10 +1,11 @@
-COMO CRIAR UM PROJETO NO RSTUDIO CLOUD E SUBIR PRO GITHUB
+COMO CRIAR UM PROJETO NO RSTUDIO CLOUD, E ENVIÁ-LO PRO GITHUB
     
 1 Acesse o site "github.com"
 2 Crie uma conta
 3 Clique em "Repositories" -> "New"
 4 Nomei o repositório
 5 Clique em "Create repository"
+
 6 Acesse o site "rstudio.cloud"
 7 Clique em "ALREADY A USER? LOG IN"
 8 Clique em "Log In with GitHub" 
