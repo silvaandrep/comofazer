@@ -1,3 +1,24 @@
+       COMO CRIAR UM PROJETO NO RSTUDIO CLOUD A PARTIR DE UM REPOSITÓRIO DO GITHUB, E INTEGRÁ-LOS
+
+Criar um Projeto no RStudio Cloud a partir de um Repositório do GitHub
+No RStudio Cloud
+1 Clicar em "New Project" -> "New Project from Git Repository"
+
+No GitHub
+2 Acessar o site "github.com"
+3 Localizar o repositório
+4 Copiar a URL do repositório
+
+No RStudio Cloud
+5 Inserir a URL do repositório
+6 Clicar em "Ok" e aguardar "Creating Project", Preparing Project" e "Deploying Project"
+
+Neste ponto, o projeto já está criado.
+
+Integrando o Projeto 
+
+No RStudio Cloud
+1. 
        New Project from Git Repository
     1. Criar uma conta no github.com silva
         1. usuário: silvaandrep
