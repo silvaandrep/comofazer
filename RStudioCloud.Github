@@ -1,8 +1,5 @@
 UMA INTRODUÇÃO AO RSTUDIO CLOUD E AO GITHUB
 
-"O RStudio Cloud é uma solução leve e baseada em nuvem que permite que qualquer pessoa faça, compartilhe, ensine e aprenda ciência de dados online."
-https://rstudio.cloud/
-
 Versão: 0.1, de 19 Jul 2022
 
 Autor: André Pereira da Silva
@@ -11,22 +8,30 @@ Referências:
 
 Prefácio
 
-Esta introdução ao RStudio Cloud e ao GitHub é derivada da prática da disciplina de Matemática Aplicada do curso de Tecnologia em Análise e Desenvolvimento de Sistemas do
-Instituto Federal de Pernambuco, ministrada pelo Professor Dr. Samuel Victor Medeiros Macêdo, e o objetivo de ser material de apoio para os alunos do 1º período do referido Curso.
+Esta introdução ao RStudio Cloud e ao GitHub é parte da prática da disciplina de Matemática Aplicada do curso de Tecnologia em Análise e Desenvolvimento de Sistemas do
+Instituto Federal de Pernambuco, ministrada pelo Professor Dr. Samuel Victor Medeiros Macêdo, e o objetivo de ser material de apoio para os alunos do 1º período do
+referido Curso.
+
+Criando um Projeto no RStudio Cloud
 
 1 A IDE RStudio Cloud
 "RStudio é um software livre de ambiente de desenvolvimento integrado para R, uma linguagem de programação para gráficos e cálculos estatísticos". (Wikipedia)
-O RStudio Cloud é o RStudio baseado na nuvem.
+
+"O RStudio Cloud é uma solução leve e baseada em nuvem que permite que qualquer pessoa faça, compartilhe, ensine e aprenda ciência de dados online."
+https://rstudio.cloud/
+
 Vantagem do RStudio Cloud:
-* Não requer instalação
+* Não requer instalação da IDE, e nem de pacotes
+* Não requer poder de processamento local
+* Possibilidade de compatilhamento de Projeto, dentre outras
 Desvantagem:
-* Requer acesso à internet
+* Requer acesso à internet, dentre outras
 
 1.1 A linguagem R
 "R é uma linguagem de programação multi-paradigma orientada a objetos, programação funcional, dinâmica, fracamente tipada, voltada à manipulação, análise e visualização de dados." (Wikipedia)
 
 1.2 O ambiente RStudio Cloud
-Para ter acesso ao ambiente do RStudio Cloud, precisamos criar uma conta:
+Para ter acesso ao ambiente do RStudio Cloud, é necessário  criar uma conta:
 
 1 Acesse o site "rstudio.cloud"
 2 Clique em "GET STARTED FOR FREE"
@@ -40,8 +45,9 @@ Para ter acesso ao ambiente do RStudio Cloud, precisamos criar uma conta:
 
 PARABÉNS! O SEU PROJETO JÁ ESTÁ CRIADO
 
+Enviando o projeto para GitHub
 
-
+GitHub
 
 11 Na aba "Terminal", digite "git init"
 12 Clique no menu "Session" -> "Restart R Ctrl+Shit+F10"
